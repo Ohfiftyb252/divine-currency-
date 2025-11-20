@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "frontend/next.config.js",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "NEXT_PUBLIC_SOLANA_CLUSTER": "https://api.devnet.solana.com",
+    "NEXT_PUBLIC_PROGRAM_ID": "YOUR_PROGRAM_ID_HERE"
+  },
+  "framework": "nextjs",
+  "rootDirectory": "frontend"
+}
