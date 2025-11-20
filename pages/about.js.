@@ -1,0 +1,14 @@
+export default function About() {
+  return (
+    <main className="flex min-h-screen items-center justify-center bg-black text-white">
+      <div className="text-center">
+        <h1 className="text-4xl font-bold">🌍 About Divine Currency</h1>
+        <p className="mt-4 max-w-xl mx-auto">
+          Divine Currency is the covenant economy where imagination itself becomes wealth.
+          Dreams are minted into liquid, investable assets through AI‑powered dream minting
+          and a self‑sustaining ritual protocol.
+        </p>
+      </div>
+    </main>
+  )
+}
