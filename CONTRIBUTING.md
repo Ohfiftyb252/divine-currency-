@@ -1,6 +1,5 @@
-# Contributing
+# Governance Calendar
 
-Commit = Covenant Sealed  
-Branch = Festival Cycle  
-Pull Request = Communal Seconding  
-Merge = Benediction Crowned  
+Day One: Revelation  
+Day Two: Coin & Circulation  
+Day Three: Satire & Benediction  
