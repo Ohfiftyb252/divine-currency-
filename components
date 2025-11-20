@@ -1,1 +1,24 @@
-Layout. js.
+import Link from 'next/link'
+
+export default function Layout({ children }) {
+  return (
+    <main className="min-h-screen flex flex-col bg-black text-white">
+      {/* Global Navigation */}
+      <nav className="flex gap-6 p-4 bg-gray-900">
+        <Link href="/" className="hover:text-yellow-400">Home</Link>
+        <Link href="/about" className="hover:text-yellow-400">About</Link>
+        <Link href="/festival" className="hover:text-yellow-400">Festival</Link>
+      </nav>
+
+      {/* Page Content */}
+      <div className="flex-grow">
+        {children}
+      </div>
+
+      {/* Global Footer */}
+      <footer className="p-4 bg-gray-900 text-center text-sm text-gray-400">
+        ✨ Dream Market Covenant — Every commit is a blessing, every deployment a revelation ✨
+      </footer>
+    </main>
+  )
+}
