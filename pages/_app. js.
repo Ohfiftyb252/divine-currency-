@@ -3,7 +3,7 @@ import '../styles/globals.css'
 
 export default function MyApp({ Component, pageProps }) {
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen flex flex-col bg-black text-white">
       {/* Global Navigation */}
       <nav className="flex gap-6 p-4 bg-gray-900">
         <Link href="/" className="hover:text-yellow-400">Home</Link>
@@ -12,7 +12,14 @@ export default function MyApp({ Component, pageProps }) {
       </nav>
 
       {/* Render the current page */}
-      <Component {...pageProps} />
+      <div className="flex-grow">
+        <Component {...pageProps} />
+      </div>
+
+      {/* Global Footer */}
+      <footer className="p-4 bg-gray-900 text-center text-sm text-gray-400">
+        ✨ Dream Market Covenant — Every commit is a blessing, every deployment a revelation ✨
+      </footer>
     </main>
   )
 }
