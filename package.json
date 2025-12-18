@@ -14,6 +14,8 @@
     "react-dom": "latest",
     "tailwindcss": "latest",
     "autoprefixer": "latest",
-    "postcss": "latest"
+    "postcss": "latest",
+    "@vercel/speed-insights": "latest",
+    "openai": "latest"
   }
 }
