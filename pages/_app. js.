@@ -1,12 +1,14 @@
 import '../styles/globals.css'
 import Layout from '../components/Layout'
 import { SpeedInsights } from '@vercel/speed-insights/next'
+import { Analytics } from '@vercel/analytics/react'
 
 export default function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Component {...pageProps} />
       <SpeedInsights />
+      <Analytics />
     </Layout>
   )
 }

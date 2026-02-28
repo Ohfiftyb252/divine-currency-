@@ -9,12 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.6.1",
+    "@vercel/speed-insights": "latest",
+    "autoprefixer": "latest",
     "next": "latest",
+    "postcss": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "tailwindcss": "latest",
-    "autoprefixer": "latest",
-    "postcss": "latest",
-    "@vercel/speed-insights": "latest"
+    "tailwindcss": "latest"
   }
 }
